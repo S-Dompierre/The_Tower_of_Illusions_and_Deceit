@@ -10,3 +10,11 @@ class Ending:
             Ending.ending_seen += 1
             self.is_seen = True
         pass
+
+ending_list = []
+
+def choice():
+    choice = input("What do you do?")
+    while choice != "1" and choice != "2":
+        choice = input("This is not a valid input. Input either '1' or '2' to choose your action.")
+    return int(choice)
