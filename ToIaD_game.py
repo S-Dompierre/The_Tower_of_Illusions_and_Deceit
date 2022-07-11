@@ -45,7 +45,7 @@ while Ending.ending_seen != 5:
         choice_1 = input("What do you do?")
         while choice_1 != "1":
             choice_1 = input("This is not a valid input. Input '1' to choose your action.")
-    elif Ending.ending_seen > 0 and Ending.ending_seen < 3:
+    elif Ending.ending_seen > 0 and Ending.ending_seen < 4:
         slowprint("You are at the door of the Tower of Illusions and Deceit, its black stone, darker than the night itself, extending to the sky seemingly until the end of the universe. You feel as if you've been here before, but can't remember exactly when or why.\n\n1)Go inside")
         choice_1 = input("What do you do?")
         while choice_1 != "1":
